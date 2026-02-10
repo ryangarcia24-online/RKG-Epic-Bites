@@ -5,6 +5,23 @@ body {
     background-attachment: fixed;
 }
 
+/* Target screens smaller than 768px */
+@media (max-width: 768px) {
+  .img-fluid {
+    /* 1. Make the height match the width for a perfect square */
+    aspect-ratio: 1 / 1;
+    
+    /* 2. Crop the image into a circle */
+    border-radius: 50% !important;
+    
+    /* 3. Ensure the image doesn't stretch/squish */
+    object-fit: cover;
+    
+    /* 4. Optional: Adjust width for mobile view */
+    width: 300px; 
+    max-width: 90%;
+  }
+}
   
 
 #Contact {
@@ -145,4 +162,5 @@ body {
         /* Optional: Bring the underline back when someone hovers over it 
         a:hover {
             text-decoration: underline;
+
         }*/
