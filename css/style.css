@@ -12,7 +12,7 @@ body {
     aspect-ratio: 1 / 1;
     
     /* 2. Crop the image into a circle */
-    border-radius: 20 !important;
+    border-radius: 20 px !important;
     
     /* 3. Ensure the image doesn't stretch/squish */
     object-fit: cover;
@@ -164,4 +164,5 @@ body {
             text-decoration: underline;
 
         }*/
+
 
