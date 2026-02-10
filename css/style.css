@@ -22,6 +22,110 @@ body {
     max-width: 90%;
   }
 }
+
+/* The main container with the background image */
+.hero-image-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url('images/mythology-bg.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 0, 220, 0.3); /* Subtle pink border to match your glow */
+    padding: 3rem;
+}
+
+/* Enhancing the Heading */
+.display-4 {
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8), 0 0 20px rgba(255, 0, 220, 0.4);
+    letter-spacing: 1px;
+}
+
+/* Enhancing the Paragraph */
+.lead {
+    color: #e0e0e0; /* Off-white for better readability */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Custom Styles */
+.navbar-brand, .nav-link {
+    font-family: 'Cinzel', serif;
+    text-transform: uppercase; /* Most mythology fonts look best in caps */
+    letter-spacing: 2px;       /* Adds that "monumental" feel */
+}
+
+.navbar-brand span {
+    font-weight: 700;          /* Makes the brand name stand out */
+    color: #d4af37;            /* Optional: A subtle Gold/Bronze color */
+}
+
+/* The Main Navigation Links */
+.navbar-nav .nav-link {
+    font-family: 'Cinzel', serif; /* Ancient Roman Style */
+    color: #d4af37 !important;   /* Metallic Gold color */
+    font-size: 1.1rem;
+    letter-spacing: 2px;         /* Adds a clean, grand look */
+    text-transform: uppercase;   /* Optional: works well with Cinzel */
+    transition: 0.3s ease;
+}
+
+/* Hover State - Glowing effect */
+.navbar-nav .nav-link:hover {
+    color: #f1e5ac !important;   /* Lighter gold/white */
+    text-shadow: 0px 0px 8px rgba(212, 175, 55, 0.6);
+}
+
+/* Active Page State */
+.navbar-nav .nav-link.active {
+    color: #ffffff !important;
+    border-bottom: 1px solid #d4af37;
+}
+
+
+/* Importing a "Mythological" style font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Lora:ital@1&display=swap');
+
+.display-4 {
+    /* Cinzel is modeled after Roman inscriptions—perfect for myths */
+    font-family: 'Cinzel', serif; 
+    
+    /* Elegant Gold Gradient */
+    background: linear-gradient(to bottom, #CF995F 22%, #F1CC84 45%, #FFEB9A 50%, #F1CC84 55%, #CF995F 78%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    /* Adds a slight glow to make the gold pop */
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+}
+
+.lead {
+    /* Lora is a classic, storytelling serif font */
+    font-family: 'Lora', serif;
+    color: #D4AF37; /* Antique Gold */
+}
+
+/* Headers: Epic Greek/Roman Style */
+#Contact h1, #Contact h3, #Contact strong {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Body text and Links */
+#Contact .lead, #Contact a {
+    font-family: 'MedievalSharp', cursive;
+}
+
+/* Optional: Make the Cyan links look more 'Golden' or 'Ethereal' */
+#Contact a {
+    transition: all 0.3s ease;
+}
+
+#Contact a:hover {
+    color: #ffd700 !important; /* Gold on hover */
+    text-shadow: 0 0 10px #ffd700;
+}
   
 
 #Contact {
