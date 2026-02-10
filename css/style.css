@@ -18,7 +18,7 @@ body {
     object-fit: cover;
     
     /* 4. Optional: Adjust width for mobile view */
-    width: 300px; 
+    width: 500px; 
     max-width: 90%;
   }
 }
@@ -162,8 +162,4 @@ body {
         /* Optional: Bring the underline back when someone hovers over it 
         a:hover {
             text-decoration: underline;
-
         }*/
-
-
-
