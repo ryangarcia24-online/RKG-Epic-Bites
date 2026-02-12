@@ -154,6 +154,7 @@ body {
     display: inline-block;
 }
 
+
 /* Primary Button (Solid Cyan) */
     .btn-primary {
     background-color: #00C2CB;
@@ -269,4 +270,18 @@ body {
         }*/
 
 
-  
+/* Start Watching Button Glow Effect */
+  .glow-button {
+    background-color: #ff00dc;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 0 0 15px rgba(255, 0, 220, 0.4);
+    transition: all 0.3s ease-in-out; /* Makes the glow feel smooth */
+    border: none;
+}
+
+.glow-button:hover {
+    color: white; /* Keeps text white on hover */
+    box-shadow: 0 0 30px rgba(255, 0, 220, 0.9), 0 0 10px rgba(255, 0, 220, 0.6);
+    transform: scale(1.05); /* Optional: makes the button slightly larger */
+}

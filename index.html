@@ -31,17 +31,16 @@
      style="background-color: rgba(0, 0, 0, 0.7) !important;">
    
             <!-- Brand / Logo -->
-            <a class="navbar-brand d-flex align-items-center gap-2" href="#Home">
-                <!-- Using an image: Bootstrap will size/align it nicely in the navbar -->
-                <img src="images/logo.jpg"
-                     alt="Logo"
-                     width="32"
-                     height="32"
-                     class="rounded" />
-                <span>
-                    RKG's Epic Bites
-                </span>
-            </a>
+          <a class="navbar-brand d-flex align-items-center gap-2" href="#Home">
+    <img src="images/logo.jpg"
+         alt="Logo"
+         width="32"
+         height="32"
+         class="rounded" />
+    <span class="">
+        RKG's Epic Bites
+    </span>
+</a>
 
             <!-- Toggler (for small screens) -->
             <button class="navbar-toggler"
@@ -92,8 +91,11 @@
 
             <div class="mt-4">
                 <a href="https://www.youtube.com/@RKGsEpicBites/playlists" class="btn btn-lg px-5 fw-bold" 
-                   style="background-color: #ff00dc; color: white; border-radius: 50px; box-shadow: 0 0 15px rgba(255, 0, 220, 0.6);">
-                   START WATCHING
+                   class="btn btn-lg px-5 fw-bold transition-all duration-300 hover:scale-105"
+   style="background-color: #ff00dc; color: white; border-radius: 50px; box-shadow: 0 0 15px rgba(255, 0, 220, 0.6);"
+   onmouseover="this.style.boxShadow='0 0 30px rgba(255, 0, 220, 1)'"
+   onmouseout="this.style.boxShadow='0 0 15px rgba(255, 0, 220, 0.6)'">
+   START WATCHING
                 </a>
             </div>
 
