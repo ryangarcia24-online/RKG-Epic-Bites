@@ -236,3 +236,10 @@ body {
     box-shadow: 0 0 30px rgba(255, 0, 220, 0.9), 0 0 10px rgba(255, 0, 220, 0.6);
     transform: scale(1.05); /* Optional: makes the button slightly larger */
 }
+
+
+video {
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2); /* Soft neon glow */
+}
+
